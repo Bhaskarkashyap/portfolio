@@ -8,11 +8,11 @@ const ProjectContent = () => {
 
   return (
     <ContainerWidth>
-          <div className='grid grid-cols-1 sm:grid-cols-3 gap-x-20  gap-y-8 '>
+          <div className='grid 2xl:grid-cols-3 grid-cols-1 sm:grid-cols-2 gap-x-20  gap-y-8 place-items-center'>
        {
          content.map(innerContent => (
            <>
-               <ProjectCard {...innerContent} key={innerContent.id} />
+               <ProjectCard {...innerContent} id={innerContent.id} />
            </>
          ))
        }

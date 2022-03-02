@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContainerWidth = ({children}) => {
   return (
-    <div className=" max-w-6xl mx-auto relative  pr-4 pl-4">
+    <div className="2xl:max-w-6xl max-w-3xl mx-auto relative  pr-4 pl-4">
     {
         children
     }
