@@ -8,7 +8,7 @@ const ProjectContent = () => {
 
   return (
     <ContainerWidth>
-          <div className='grid 2xl:grid-cols-3 grid-cols-1 sm:grid-cols-2 gap-x-20  gap-y-8 place-items-center'>
+          <div className='grid 2xl:grid-cols-3 grid-cols-1 sm:grid-cols-2 gap-x-20  gap-y-8 place-items-center pb-10'>
        {
          content.map(innerContent => (
            <>

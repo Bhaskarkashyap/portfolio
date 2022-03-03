@@ -13,7 +13,7 @@ const Header = () => {
         
           <div className='flex-1 max-w-sm   pr-3.5 pl-3.5 rounded-md '>
             {/* image */}
-                <img src='/images/profile1.jpg' alt='profile1' className='w-10/12 object-cover relative top-10 rounded-md mt-2.5 align-middle' />
+                <img src='/images/profile.jpg' alt='profile1' className='w-10/12 object-cover relative top-10 rounded-md mt-2.5 align-middle' />
             </div>
 
            <Info />

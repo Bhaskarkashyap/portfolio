@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer';
 import Navigation from '../components/Navigation'
 import ContainerWidth from './ContainerWidth';
 
@@ -18,8 +19,8 @@ const Layout = ({children , height}) => {
         children
     }
   
-     
        </ContainerWidth>
+     {/* <Footer /> */}
     </header>
   )
 }
